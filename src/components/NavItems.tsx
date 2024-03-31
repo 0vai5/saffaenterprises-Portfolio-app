@@ -18,13 +18,6 @@ const NavItems = () => {
           <h4 className="text-lg">Contact</h4>
         </li>
       </NavLink>
-      <NavLink 
-      to="/products"
-      className={({ isActive }) => (isActive ? 'text-[#00B3FF]' : 'text-black')}>
-        <li>
-          <h4 className="text-lg">Products</h4>
-        </li>
-      </NavLink>
     </ul>
   );
 };

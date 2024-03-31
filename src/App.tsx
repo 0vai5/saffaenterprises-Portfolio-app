@@ -1,5 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Header from "./components/Header";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (
@@ -7,10 +8,9 @@ const App = () => {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={'/'} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={'about'} />
           <Route path="/contact" element={'contact'} />
-          <Route path="/products" element={'products'} />
         </Routes>
       </Router>
     </main>
