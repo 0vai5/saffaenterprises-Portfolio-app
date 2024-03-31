@@ -8,7 +8,6 @@ const Header = () => {
       <div>
       <NavLink
         to="/"
-        className={({ isActive }) => (isActive ? 'text-[#00B3FF]' : 'text-black')}
       >
         image
       </NavLink>
