@@ -2,7 +2,7 @@ import Marquee from "react-fast-marquee";
 
 const Merquee = () => {
   return (
-    
+    // TODO: Making all the image Links in a constant file and importing and maping
     <section className="max-w-5xl mx-auto  px-8 min-h-[30vh] text-center flex items-center flex-col">
         <h1 className="subhead-text mb-10">Trusted <span className="text-[#1065DC]">Clients</span></h1>
         <Marquee speed={70}>
