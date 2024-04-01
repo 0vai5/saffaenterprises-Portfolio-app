@@ -8,14 +8,14 @@ const NavItems = () => {
         className={({ isActive }) => (isActive ? 'text-[#00B3FF]' : 'text-black')}
       >
         <li>
-          <h4 className="text-lg">About</h4>
+          <h4 className="text-xl font-semibold">About</h4>
         </li>
       </NavLink>
       <NavLink 
       to="/contact"
       className={({ isActive }) => (isActive ? 'text-[#00B3FF]' : 'text-black')}>
         <li>
-          <h4 className="text-lg">Contact</h4>
+          <h4 className="text-xl font-semibold">Contact</h4>
         </li>
       </NavLink>
     </ul>

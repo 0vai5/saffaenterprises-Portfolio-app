@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (
-    <main className="bg-zinc-300">
+    <main className="bg-white/80">
       <Router>
         <Header />
         <Routes>

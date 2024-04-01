@@ -1,12 +1,13 @@
 import Home from "@/components/Home"
+import Merquee from "@/components/Merquee"
 
 
 const HomePage = () => {
   return (
-    <section className="max-container">
+    <>
        <Home /> 
-    </section>
-    
+      <Merquee />
+      </>
   )
 }
 

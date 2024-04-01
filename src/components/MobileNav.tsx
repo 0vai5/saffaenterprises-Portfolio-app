@@ -10,7 +10,13 @@ const MobileNav = () => {
         <SheetTrigger>
           <FontAwesomeIcon icon={faBars} />
         </SheetTrigger>
-        <SheetContent className="bg-white/50">
+        <SheetContent className="bg-white">
+          <div>
+            <h1 className="subhead-text">
+              SAFFA <br />
+              <span className="text-[#1065DC]">Enterprises</span>
+            </h1>
+          </div>
           <NavItems />
         </SheetContent>
       </Sheet>
