@@ -1,11 +1,11 @@
-import Home from "@/components/Home"
+import Hero from "@/components/Hero"
 import Merquee from "@/components/Merquee"
 
 
 const HomePage = () => {
   return (
     <>
-       <Home /> 
+       <Hero /> 
       <Merquee />
       </>
   )

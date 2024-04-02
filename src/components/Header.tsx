@@ -9,7 +9,7 @@ const Header = () => {
       <NavLink
         to="/"
       >
-        <h2 className="subhead-text leading-6">Saffa<br /><span className={'text-[#1065DC]'}>Enterprises</span></h2>
+        <img src="./saffaenterprises.png" alt="logo" className="h-32 w-32"/>
       </NavLink>
       </div>
       <nav className="hidden md:block">

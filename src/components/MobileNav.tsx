@@ -8,14 +8,11 @@ const MobileNav = () => {
     <nav className="block md:hidden">
       <Sheet>
         <SheetTrigger>
-          <FontAwesomeIcon icon={faBars} />
+          <FontAwesomeIcon icon={faBars} className="font-bold text-3xl text-white" />
         </SheetTrigger>
-        <SheetContent className="bg-white">
+        <SheetContent className="bg-white drop-shadow-[-100px 0px 30px -10px rgba(0,0,0,0.1)]">
           <div>
-            <h1 className="subhead-text">
-              SAFFA <br />
-              <span className="text-[#1065DC]">Enterprises</span>
-            </h1>
+            <img src="./saffaenterprises.png" alt="logo"  className="h-32 w-32"/>
           </div>
           <NavItems />
         </SheetContent>
