@@ -20,8 +20,8 @@ export const Clients = [
     classes: 'h-14'
   },
   {
-    name: 'ALRehman',
-    logo: 'https://www.rehmanfabrics.com/images/logo/1.png',
+    name: 'UnionFabrics',
+    logo: 'https://www.unionfabrics.com/images/demo/logo.png',
     classes: 'h-14'
   },
   {
@@ -51,6 +51,11 @@ export const Clients = [
     name: 'PSL - Pakistan Synthetic Limited',
     logo: 'https://pslpet.com/wp-content/uploads/2022/01/PSL-Logo-New.png',
     classes: 'h-14'
+  },
+  {
+    name: 'AlRaheem',
+    logo: 'https://www.alrahimtextile.com/images/logo.jpg',
+    classes: 'h-10'
   }
   
 ];
