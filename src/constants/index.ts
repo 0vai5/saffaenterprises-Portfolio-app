@@ -12,7 +12,7 @@ export const Clients = [
   {
     name: 'GareebSons',
     logo: 'http://garibsons.com/wp-content/uploads/2020/03/Garibsons-Logo-name.jpg',
-    classes: 'h-10 '
+    classes: 'h-10 md:block hidden'
   },
   {
     name: 'AMNA Textile',
