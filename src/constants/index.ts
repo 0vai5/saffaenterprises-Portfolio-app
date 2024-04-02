@@ -55,7 +55,7 @@ export const Clients = [
   {
     name: 'AlRaheem',
     logo: 'https://www.alrahimtextile.com/images/logo.jpg',
-    classes: 'h-10'
+    classes: 'h-12'
   }
   
 ];
