@@ -1,5 +1,5 @@
 
-import { faLightbulb, faHandshake, faLock } from "@fortawesome/free-solid-svg-icons";
+import { faGear, faHandshake, faLock } from "@fortawesome/free-solid-svg-icons";
 
 export const Clients = [
   {
@@ -65,18 +65,29 @@ export const Clients = [
 
 export const goals = [
   {
-    icon: faLightbulb,
+    icon: faGear,
     title: "Innovation and Product Development",
-    description: "Our focus on innovation extends to developing sustainable solutions that meet the evolving needs of our customers and the planet, ensuring a brighter future for all."
-  },
-  {
-    icon: faHandshake,
-    title: "Customer Satisfaction and Partnership",
-    description: "Prioritize customer satisfaction by delivering exceptional products and services. Proactively engage with clients to understand their needs and provide tailored solutions."
+    description: "Our focus on innovation extends to developing sustainable solutions that meet the evolving needs of our customers and the planet, ensuring a brighter future for all.",
+    cardClass: 'max-w-full md:max-w-[30%]',
+    cardDescClass: 'text-[#1065DC] text-center font-semibold',
+    titleClass: 'text-center'
   },
   {
     icon: faLock,
     title: "Honesty and Commitment",
-    description: "We are committed to delivering excellence through our unwavering dedication to our customers' needs, striving to exceed expectations and build long-lasting relationships based on trust and reliability."
-  }
+    description: "We are committed to delivering excellence through our unwavering dedication to our customers' needs, striving to exceed expectations and build long-lasting relationships based on trust and reliability.",
+    cardClass: 'bg-[#1065DC] text-white max-w-full md:max-w-[30%]',
+    cardDescClass: 'text-white text-center font-semibold',
+    titleClass: 'text-center text-black'
+
+  },
+  {
+    icon: faHandshake,
+    title: "Customer Satisfaction and Partnership",
+    description: "Prioritize customer satisfaction by delivering exceptional products and services. Proactively engage with clients to understand their needs and provide tailored solutions.",
+    cardClass: 'max-w-full md:max-w-[30%]',
+    cardDescClass: 'text-[#1065DC] text-center font-semibold',
+    titleClass: 'text-center'
+  },
+  
 ];
