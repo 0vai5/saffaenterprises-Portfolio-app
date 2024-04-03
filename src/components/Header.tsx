@@ -1,5 +1,4 @@
-import MobileNav from "./MobileNav";
-import NavItems from "./NavItems";
+import { NavItems, MobileNav } from ".";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {

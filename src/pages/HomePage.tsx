@@ -1,14 +1,13 @@
-import Hero from "@/components/Hero"
-import Merquee from "@/components/Merquee"
-
+import { Hero, Merquee, Introduction } from "@/components";
 
 const HomePage = () => {
   return (
     <>
-       <Hero /> 
+      <Hero />
       <Merquee />
-      </>
-  )
-}
+      <Introduction />
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
