@@ -1,3 +1,6 @@
+
+import { faLightbulb, faHandshake, faLock } from "@fortawesome/free-solid-svg-icons";
+
 export const Clients = [
   {
     name: 'ADM',
@@ -58,4 +61,22 @@ export const Clients = [
     classes: 'h-12'
   }
   
+];
+
+export const goals = [
+  {
+    icon: faLightbulb,
+    title: "Innovation and Product Development",
+    description: "Our focus on innovation extends to developing sustainable solutions that meet the evolving needs of our customers and the planet, ensuring a brighter future for all."
+  },
+  {
+    icon: faHandshake,
+    title: "Customer Satisfaction and Partnership",
+    description: "Prioritize customer satisfaction by delivering exceptional products and services. Proactively engage with clients to understand their needs and provide tailored solutions."
+  },
+  {
+    icon: faLock,
+    title: "Honesty and Commitment",
+    description: "We are committed to delivering excellence through our unwavering dedication to our customers' needs, striving to exceed expectations and build long-lasting relationships based on trust and reliability."
+  }
 ];
