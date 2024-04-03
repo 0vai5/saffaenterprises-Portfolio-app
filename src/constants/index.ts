@@ -70,7 +70,7 @@ export const goals = [
     description: "Our focus on innovation extends to developing sustainable solutions that meet the evolving needs of our customers and the planet, ensuring a brighter future for all.",
     cardClass: 'max-w-full md:max-w-[30%]',
     cardDescClass: 'text-[#1065DC] text-center font-semibold',
-    titleClass: 'text-center'
+    titleClass: 'text-center text-[]'
   },
   {
     icon: faLock,
@@ -89,5 +89,23 @@ export const goals = [
     cardDescClass: 'text-[#1065DC] text-center font-semibold',
     titleClass: 'text-center'
   },
-  
 ];
+
+export const records = [
+  {
+    title: 'Years of Experience',
+    description: 'For more than 20 years, we have navigated the intricacies of the textile sector, adapting to changing trends and technologies to better serve our clients. Our extensive experience ensures that we bring unparalleled expertise to every project we undertake.',
+    count: 20
+  },
+  {
+    title: 'Orders Fulfilled',
+    description: 'Having successfully executed over 500 orders, we understand the importance of precision and efficiency in meeting our clients demands. Each order fulfilled is a testament to our commitment to delivering quality solutions on time, every time.',
+    count: 500
+  },
+  {
+    title: 'Satisfied Clients',
+    description: 'The satisfaction of our clients is paramount to us. With over 100 satisfied clients in our portfolio, we take pride in fostering long-term relationships built on trust, transparency, and exceptional service. Their success is our success, and we strive to exceed their expectations at every turn.',
+    count: 100
+  },
+
+]

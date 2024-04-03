@@ -7,6 +7,8 @@ import { Button } from './ui/button';
 import { Sheet } from './ui/sheet';
 import Introduction from './Introduction';
 import Goals from './Goals';
+import { Separator } from './ui/separator';
+import Record from './Record';
 
 
-export {Header, Hero, Merquee,MobileNav,NavItems,Button,Sheet,Introduction, Goals}
+export {Header, Hero, Merquee,MobileNav,NavItems,Button,Sheet,Introduction, Goals, Separator, Record}
