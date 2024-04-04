@@ -1,5 +1,5 @@
 
-import { faGear, faHandshake, faLock } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faGear, faHandshake, faLock, faPaperPlane, faPhoneAlt, faTeletype } from "@fortawesome/free-solid-svg-icons";
 
 export const Clients = [
   {
@@ -117,5 +117,28 @@ export const products = [
   {
     image: 'https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.625,f_auto,h_493,q_auto,w_875/c_pad,h_493,w_875/C3730372-01?pgw=1&pgwact=1',
     alt: 'PT-100 RTD Sensor',
+  }
+];
+
+export const contactInfo = [
+  {
+    icon: faEnvelope,
+    type: 'Email',
+    items: 'saffaenterprises@gmail.com'
+  },
+  {
+    icon: faPhoneAlt,
+    type: 'Phone',
+    items: ['+92334-3449019', '+92300-9296357']
+  },
+  {
+    icon: faPaperPlane,
+    type: 'Address',
+    items: 'Lotia Chamber Aiwan -e- Tijarat Road Karachi, Pakistan  '
+  },
+  {
+    icon: faTeletype,
+    type: 'Fax',
+    items: '+92(021)32425860'
   }
 ]

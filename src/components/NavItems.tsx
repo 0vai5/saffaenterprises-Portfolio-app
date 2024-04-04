@@ -6,7 +6,7 @@ const NavItems = () => {
       <NavLink
         to="/about"
         className={({ isActive }) =>
-          isActive ? "text-[#00B3FF]" : "text-black md:text-white"
+          isActive ? "text-[#00B3FF]" : "text-black "
         }
       >
         <li>
@@ -16,7 +16,7 @@ const NavItems = () => {
       <NavLink
         to="/contact"
         className={({ isActive }) =>
-          isActive ? "text-[#00B3FF]" : "text-black md:text-white"
+          isActive ? "text-[#00B3FF]" : "text-black "
         }
       >
         <li>

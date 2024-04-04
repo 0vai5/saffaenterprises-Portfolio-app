@@ -10,6 +10,7 @@ import Goals from './Goals';
 import { Separator } from './ui/separator';
 import Record from './Record';
 import Footer from './Footer';
+import ContactCards from './ContactCards'
 
 
-export {Header, Hero, Merquee,MobileNav,NavItems,Button,Sheet,Introduction, Goals, Separator, Record, Footer}
+export {Header, Hero, Merquee,MobileNav,NavItems,Button,Sheet,Introduction, Goals, Separator, Record, Footer, ContactCards}
