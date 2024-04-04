@@ -103,9 +103,19 @@ export const records = [
     count: 500
   },
   {
-    title: 'Satisfied Clients',
-    description: 'The satisfaction of our clients is paramount to us. With over 100 satisfied clients in our portfolio, we take pride in fostering long-term relationships built on trust, transparency, and exceptional service. Their success is our success, and we strive to exceed their expectations at every turn.',
-    count: 100
+    title: 'Product Range',
+    description: 'We take pride in our diverse range of machinery parts, offering comprehensive solutions to meet the varied needs of textile manufacturers. From dyeing vats to bleaching valves and temperature sensors, our extensive product range ensures that our clients have access to the tools they need to succeed.',
+    count: 30
   },
+];
 
+export const products = [
+  {
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzlA9VpeosAl1gccrF-b_l2CQtb4rTV9MIQib2HAjRBA&s',
+    alt: 'THERMOCOUPLE',
+  },
+  {
+    image: 'https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.625,f_auto,h_493,q_auto,w_875/c_pad,h_493,w_875/C3730372-01?pgw=1&pgwact=1',
+    alt: 'PT-100 RTD Sensor',
+  }
 ]

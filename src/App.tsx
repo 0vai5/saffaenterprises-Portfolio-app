@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import { Header } from "./components";
+import { Footer, Header } from "./components";
 import HomePage from "./pages/HomePage";
 
 const App = () => {
@@ -13,6 +13,7 @@ const App = () => {
           <Route path="/contact" element={'contact'} />
           <Route path="/quote" element={'quote'}/>
         </Routes>
+        <Footer />
       </Router>
     </main>
   );

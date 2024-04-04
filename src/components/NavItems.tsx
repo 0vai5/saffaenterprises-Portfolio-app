@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { Button } from "./ui/button";
 
 const NavItems = () => {
   return (
@@ -25,11 +24,6 @@ const NavItems = () => {
         </li>
       </NavLink>
 
-      <NavLink to={'/quote'}>
-        <li>
-          <Button>Get a Quote</Button>
-        </li>
-      </NavLink>
     </ul>
   );
 };

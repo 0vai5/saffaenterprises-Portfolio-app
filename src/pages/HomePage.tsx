@@ -1,4 +1,4 @@
-import { Hero, Merquee, Introduction, Goals, Separator, Record } from "@/components";
+import { Hero, Merquee, Introduction, Goals, Separator, Record} from "@/components";
 
 const HomePage = () => {
   return (

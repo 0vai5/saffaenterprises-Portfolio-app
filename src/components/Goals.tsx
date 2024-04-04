@@ -16,7 +16,7 @@ const Goals = () => {
       </h1>
       <div className="flex items-center justify-between gap-4 md:flex-row flex-col flex-2">
         {goals.map((goal) => (
-            <Card className={goal.cardClass}>
+            <Card key={goal.title} className={goal.cardClass}>
             <CardHeader>
               <CardTitle className={goal.titleClass}><FontAwesomeIcon icon={goal.icon} className="font-semibold text-5xl"/></CardTitle>
               <CardDescription className={goal.cardDescClass}>{goal.title}</CardDescription>
