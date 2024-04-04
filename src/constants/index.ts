@@ -138,7 +138,7 @@ export const contactInfo = [
   },
   {
     icon: faTeletype,
-    type: 'Fax',
+    type: 'Telephone',
     items: '+92(021)32400088'
   }
 ]
