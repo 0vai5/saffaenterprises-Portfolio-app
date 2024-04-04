@@ -139,6 +139,6 @@ export const contactInfo = [
   {
     icon: faTeletype,
     type: 'Fax',
-    items: '+92(021)32425860'
+    items: '+92(021)32400088'
   }
 ]
