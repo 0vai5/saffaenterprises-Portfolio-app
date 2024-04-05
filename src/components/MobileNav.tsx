@@ -9,7 +9,7 @@ const MobileNav = () => {
     <nav className="block md:hidden">
       <Sheet>
         <SheetTrigger>
-          <FontAwesomeIcon icon={faBars} className="font-bold text-3xl " />
+          <FontAwesomeIcon icon={faBars} className="font-bold text-3xl text-black" />
         </SheetTrigger>
         <SheetContent className="bg-white drop-shadow-[-100px 0px 30px -10px rgba(0,0,0,0.1)]">
           <div>
