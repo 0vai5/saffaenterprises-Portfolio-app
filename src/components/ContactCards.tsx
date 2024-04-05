@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ContactCards = () => {
   return (
-    <section className="max-container">
+    <section className="max-container ">
       <div className="flex md:flex-row flex-col justify-between items-center gap-5">
         {contactInfo.map((info) => (
           <div key={info.type} className="border border-[#1065dc] w-full md:w-1/4 py-10 flex flex-col justify-between items-center rounded-md">
@@ -18,7 +18,7 @@ const ContactCards = () => {
                 <p key={index} className="text-center">{item}</p>
               ))
             ) : (
-              <p className="text-center">{info.items}</p>
+              <p className="text-center text-wrap">{info.items}</p>
             )}
           </div>
         ))}

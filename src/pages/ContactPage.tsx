@@ -1,9 +1,12 @@
-import { ContactCards } from "@/components"
+import { ContactCards, ContactForm } from "@/components"
 
 const ContactPage = () => {
   return (
     <>
-    <ContactCards />
+    <section className="flex flex-col">
+      <ContactCards />
+      <ContactForm />
+    </section>
     </>
   )
 }
