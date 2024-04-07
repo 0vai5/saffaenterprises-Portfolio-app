@@ -1,4 +1,4 @@
-import { Hero, Merquee, Introduction, Goals, Separator, Record} from "@/components";
+import { Hero, Merquee, Introduction, Goals, Separator, Record, Products} from "@/components";
 
 const HomePage = () => {
   return (
@@ -10,6 +10,7 @@ const HomePage = () => {
       <Separator orientation="horizontal" />
       <Goals />
       <Record />
+      <Products />
     </>
   );
 };

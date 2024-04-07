@@ -16,5 +16,7 @@ import Alert from './Alert';
 import AboutHero from './AboutHero';
 import AboutStats from './AboutStats';
 import AboutSpecialities from './AboutSpecialities';
+import CustomCarousel from './CustomCarousal';
+import Products from './Products';
 
-export {Header, Hero, Merquee,MobileNav,NavItems,Button,Sheet,Introduction, Goals, Separator, Record, Footer, ContactCards, ContactForm, Alert, AboutHero, AboutStats, AboutSpecialities}
+export {Header, Hero, Merquee,MobileNav,NavItems,Button,Sheet,Introduction, Goals, Separator, Record, Footer, ContactCards, ContactForm, Alert, AboutHero, AboutStats, AboutSpecialities, CustomCarousel, Products}

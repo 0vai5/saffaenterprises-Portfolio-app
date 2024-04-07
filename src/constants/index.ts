@@ -113,10 +113,77 @@ export const products = [
   {
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzlA9VpeosAl1gccrF-b_l2CQtb4rTV9MIQib2HAjRBA&s',
     alt: 'THERMOCOUPLE',
+    desc: 'hermocouple and Temperature Sensors. RTD, PT.100, K, J Type sensors in any fitting and any length are available according to customer’s requirement.'
   },
   {
-    image: 'https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.625,f_auto,h_493,q_auto,w_875/c_pad,h_493,w_875/C3730372-01?pgw=1&pgwact=1',
-    alt: 'PT-100 RTD Sensor',
+    image: 'https://combustioncontrols.pk/images/product-details/ignition-rod-8mmx122mm-3mmx128mm/ignition-rod-8mmx122mm-3mmx128mm-268x249.jpg',
+    alt: 'Ignition Rod',
+    desc: 'Imported and Local Variants Available as per customer’s requirments.'
+  },
+  {
+    image: 'https://suzukiraiwind.pk/wp-content/uploads/2013/06/DSC_1205.jpg',
+    alt: 'Spark Plug',
+    desc: 'Imported and Local Variants Available as per customer’s requirments.'
+  },
+  {
+    image: 'https://www.emkoelektronik.com.tr/pics/products/ESM-4410-Dijital-ONOFF-Sicaklik-Kontrol-Cihazi-349.jpg',
+    alt: 'Temperature Controllers',
+    desc: 'Also available in EMKO, PanGlobe and Autonics'
+  },
+  {
+    image: 'https://www.aquaclear.pk/image/Filter-Cartridge-Range.jpg',
+    alt: 'Filter Cartridges',
+    desc: 'Water Filter Cartridges available in different sizes 10”, 20”, 30”, 40”, and 50”'
+  },
+  {
+    image: 'https://cdn11.bigcommerce.com/s-1x0ys7yqwf/product_images/uploaded_images/industrial-commercial-cartridge-filter-housings.jpg',
+    alt: 'Industrial WaterFilter Housing',
+    desc: 'Also available in Couple of Brands and StainlessSteel and Plastic Variants'
+  },
+  {
+    image: 'https://static-01.daraz.pk/p/4ac27587b14c61ae9c009d76284044ac.jpg',
+    alt: 'WaterFIlter Set',
+    desc: 'Also available in different sizes and variants'
+  },
+  {
+    image: 'https://5.imimg.com/data5/WN/JJ/FN/SELLER-3528750/brahma-burner-control-box-sm592-500x500.JPG',
+    alt: 'Burner Relays',
+    desc: 'Also availabe in Unik, (UK202F, UK2O2U) and Brahma, (RE 3) '
+  },
+  {
+    image: 'https://bloomenterprisess.com/wp-content/uploads/2020/01/siemens-burner-programmer-.jpg',
+    alt: 'Burner Programmers',
+    desc: 'Available in Siemens, 1.122, 1.322, 1.333, 1.335 & 1.635'
+  },
+  {
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiyHCitBOmEZGQliCXW3sSY7wwzrmEuO0LR22ccsFYAw&s',
+    alt: 'UV Sensors',
+    desc: 'Also Available in Siemens ( QRA 2 ), Brahma ( UV 1 ), Honeywell'
+  },
+  {
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIb3qWFF-hM6HB-_oBLgLw7X453EOsNFzpCsJgfO-zbw&s',
+    alt: 'Brahma Ignition Transformers',
+    desc: 'Available in Brahma, Italy'
+  },
+  {
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUIVjdYOPzpvizWYpoUE4RiBAKe0HgGv0g8ZAqmR8DZA&s',
+    alt: 'Pressure Switches',
+    desc: 'Avaiable in Krom Schroder, Dungs, Ueda'
+  },
+  {
+    image: 'https://w11stop.com/image/cache/Circuit%20Breakers/Power%20Factor%20Controller/Nokian/nokian-n12-power-factor-controller-550x550.jpg.webp',
+    alt: 'Power Factor Capacitor',
+    desc: 'Available in Nokian, Shizuki, Panasonic'
+  },
+  {
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX7TyzEaxDP6Og7slMpCKLPXUbyhrl83zd72S37IQT5Q&s',
+    alt: 'Power Relays',
+    desc: 'Also available in Omron, Idec, Finder, Relpol'
+  },
+  {
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGqqMWUJc891SSMxAuMn2N29RZmeCRSb66lEdd6qeKQQ&s',
+    alt: 'MAgnetic Circuit Breakers',
+    desc: 'Also Available in Hager, Terasaki, Hyundai, MG, LS'
   }
 ];
 
