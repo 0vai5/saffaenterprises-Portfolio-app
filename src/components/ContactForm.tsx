@@ -12,6 +12,7 @@ type Inputs = {
   message: string;
 };
 
+// TODO: We are Currentl having problem with the EmailJS Public Key but we will fix it in a bit
 const ContactForm = () => {
   const {
     register,
