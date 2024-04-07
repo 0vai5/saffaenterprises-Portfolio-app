@@ -1,5 +1,5 @@
 
-import { faEnvelope, faGear, faHandshake, faLock, faPaperPlane, faPhoneAlt, faTeletype } from "@fortawesome/free-solid-svg-icons";
+import { faCheckDouble, faClockRotateLeft, faEnvelope, faExpand, faGear, faHandshake, faLightbulb, faLock, faPaperPlane, faPhoneAlt, faStar, faTeletype, faTrophy } from "@fortawesome/free-solid-svg-icons";
 
 export const Clients = [
   {
@@ -100,7 +100,7 @@ export const records = [
   {
     title: 'Orders Fulfilled',
     description: 'Having successfully executed over 500 orders, we understand the importance of precision and efficiency in meeting our clients demands. Each order fulfilled is a testament to our commitment to delivering quality solutions on time, every time.',
-    count: 500
+    count: 1000
   },
   {
     title: 'Product Range',
@@ -140,5 +140,53 @@ export const contactInfo = [
     icon: faTeletype,
     type: 'Telephone',
     items: '+92(021)32400088'
+  }
+];
+
+export const Stats = [
+  {
+    number: '20+',
+    title: 'Years of Experience'
+  },
+  {
+    number: '1k+',
+    title: 'Orders Fullfiled'
+  },
+  {
+    number: '94%',
+    title: 'Customer Satisfaction'
+  }
+];
+
+export const specialities = [
+  {
+    icon: faTrophy,
+    title: 'Team of Professionals',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+  },
+  {
+    icon: faStar,
+    title: 'Advance Technology',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+  },
+  {
+    icon: faExpand,
+    title: 'Focus on Customer',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+  },
+  {
+    icon: faClockRotateLeft,
+    title: 'Efficient Service',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+  },
+  {
+    icon: faCheckDouble,
+    title: 'Quality Products',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+  },
+  {
+    icon: faLightbulb,
+    title: 'Advance Technology',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
   }
 ]

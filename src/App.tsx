@@ -1,7 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Footer, Header } from "./components";
-import HomePage from "./pages/HomePage";
-import ContactPage from "./pages/ContactPage";
+import { HomePage, ContactPage, AboutPage } from "./pages";
 
 const App = () => {
   return (
@@ -10,9 +9,8 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={'about'} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/quote" element={'quote'}/>
         </Routes>
         <Footer />
       </Router>

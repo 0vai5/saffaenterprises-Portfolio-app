@@ -13,5 +13,8 @@ import Footer from './Footer';
 import ContactCards from './ContactCards'
 import ContactForm from './ContactForm'
 import Alert from './Alert';
+import AboutHero from './AboutHero';
+import AboutStats from './AboutStats';
+import AboutSpecialities from './AboutSpecialities';
 
-export {Header, Hero, Merquee,MobileNav,NavItems,Button,Sheet,Introduction, Goals, Separator, Record, Footer, ContactCards, ContactForm, Alert}
+export {Header, Hero, Merquee,MobileNav,NavItems,Button,Sheet,Introduction, Goals, Separator, Record, Footer, ContactCards, ContactForm, Alert, AboutHero, AboutStats, AboutSpecialities}
