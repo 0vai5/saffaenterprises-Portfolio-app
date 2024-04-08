@@ -3,7 +3,7 @@ import CustomCarousel from "./CustomCarousal"
 
 const Products = () => {
   return (
-    <section className="container m-5">
+    <section className="container ">
         <h1 className="head-text text-center mb-10">Products</h1>
     <CustomCarousel>
         {products.map((product) => (
