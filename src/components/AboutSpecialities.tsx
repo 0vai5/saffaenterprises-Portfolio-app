@@ -5,7 +5,7 @@ const AboutSpecialities = () => {
   return (
     <section className="container pl-3 md:pl-10 ">
         <h1 className="font-semibold text-5xl mb-10">
-            Why Trust Our <br /> Specialities?
+            Why Trust Our <br /> <span className="text-[#1065dc]">Specialities?</span>
         </h1>
         <div className="p-5 grid  place-items-center md:grid-cols-3 grid-cols-1 gap-5">
             {specialities.map((speciality) => (
