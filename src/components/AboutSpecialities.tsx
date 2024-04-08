@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const AboutSpecialities = () => {
   return (
-    <section className="container pl-0 md:pl-10 ">
+    <section className="container pl-3 md:pl-10 ">
         <h1 className="font-semibold text-5xl mb-10">
             Why Trust Our <br /> Specialities?
         </h1>

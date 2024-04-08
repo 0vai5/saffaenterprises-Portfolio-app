@@ -182,8 +182,28 @@ export const products = [
   },
   {
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGqqMWUJc891SSMxAuMn2N29RZmeCRSb66lEdd6qeKQQ&s',
-    alt: 'MAgnetic Circuit Breakers',
+    alt: 'Magnetic Circuit Breakers',
     desc: 'Also Available in Hager, Terasaki, Hyundai, MG, LS'
+  },
+  {
+    image: 'https://powerhouseexpress.com.pk/cdn/shop/collections/magnetic-contractor.png?v=1680674755',
+    alt: 'Magnetic Contractors',
+    desc: 'Also available in Panasonic, Togami, LS, Lovato, Hyundai, Terasaki'
+  },
+  {
+    image: 'https://w11stop.com/image/cache/Circuit%20Breakers/Electronic%20Timer/pm4h-s-h-electronic-timer-550x550.jpg.webp',
+    alt: 'Timers',
+    desc: 'Available in Autonics, Panasonic, Elko, Fotek'
+  },
+  {
+    image: './pressuretransmitter.jpg',
+    alt: 'Pressure Transmitters',
+    desc: 'Available in different models WIKA (S11 100mbar)'
+  },
+  {
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLDZpO-VYTQ3jdqsWKo39e3ORiJtjAGsUa6-7kRYiQZQ&s',
+    alt: 'Proximity and Capacitive Sensor',
+    desc: 'Available in Riko, Autonics, MD, Fotek'
   }
 ];
 
