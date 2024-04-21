@@ -5,8 +5,6 @@ import { HomePage, ContactPage, AboutPage } from "./pages";
 
 
 const App: React.FC = () => {
-  
-
   return (
     <main className="bg-white/80">
       <Router>
