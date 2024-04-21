@@ -4,8 +4,8 @@ import { Clients } from "../constants";
 
 const Merquee = () => {
   return (
-    <section className="max-w-6xl mx-auto  px-8 min-h-[20vh] text-center flex items-center flex-col">
-        <h1 className="head-text mb-10">Trusted <span className="text-[#1065DC]">Clients</span></h1>
+    <section className="max-w-6xl mx-auto  px-2 min-h-[10vh] text-center flex items-center flex-col">
+        <h1 className="head-text mb-5">Trusted <span className="text-[#1065DC]">Clients</span></h1>
       <Marquee speed={60} gradient={true} gradientWidth={100}>
         <div className="flex gap-[5rem] items-center justify-center">
         {Clients.map((client, index) => (
