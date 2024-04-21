@@ -211,22 +211,26 @@ export const contactInfo = [
   {
     icon: faEnvelope,
     type: 'Email',
-    items: 'saffaenterprises@gmail.com'
+    items: 'saffaenterprises@gmail.com',
+    href: 'mailto:saffaenterprises@gmail.com'
   },
   {
     icon: faPhoneAlt,
     type: 'Phone',
-    items: ['+92334-3449019', '+92300-9296357']
+    items: ['+92334-3449019', '+92300-9296357'],
+    href: 'https://api.whatsapp.com/send/?phone=%2B923343449019'
   },
   {
     icon: faPaperPlane,
     type: 'Address',
-    items: 'Lotia Chamber Aiwan -e- Tijarat Road Karachi, Pakistan  '
+    items: 'Lotia Chamber Aiwan -e- Tijarat Road Karachi, Pakistan',
+    href: 'https://www.google.com/maps/place/Lotia+Chambers+(1933),+Gortandas+Market+Rd,+Bolton+Market+Market+Quarter,+Karachi,+Karachi+City,+Sindh,+Pakistan/@24.8525296,67.0029879,21z/data=!4m10!1m2!2m1!1slotia+chamber!3m6!1s0x3eb33e03bf26a293:0x4a635998042b8e3c!8m2!3d24.8525196!4d67.0029664!15sCg1sb3RpYSBjaGFtYmVykgERY29tcG91bmRfYnVpbGRpbmfgAQA!16s%2Fg%2F11dz54rz5y?entry=ttu'
   },
   {
     icon: faTeletype,
     type: 'Telephone',
-    items: '+92(021)32400088'
+    items: '+92(021)32400088',
+    href: 'tel:+92(021)32400088'
   }
 ];
 
