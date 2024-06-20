@@ -11,11 +11,11 @@ const Footer = () => {
             {Array.isArray(info.items) ? (
               <ul>
                 {info.items.map((item, index) => (
-                 <a key={index} href={info.href}> <li>{item}</li></a>
+                 <a key={index} target="_blank" href={info.href}> <li>{item}</li></a>
                 ))}
               </ul>
             ) : (
-              <a href= {info.href} key={index}><p className="text-center text-wrap">{info.items}</p></a> 
+              <a href= {info.href} target="_blank" key={index}><p className="text-center text-wrap">{info.items}</p></a> 
             )}
           </div>
         ))}

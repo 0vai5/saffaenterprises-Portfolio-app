@@ -4,32 +4,32 @@ import { faCheckDouble, faClockRotateLeft, faEnvelope, faExpand, faGear, faHands
 export const Clients = [
   {
     name: 'ADM',
-    logo: 'https://www.admdenim.com/_next/static/media/adm-logo-dark.c3c12edf.svg',
+    logo: './adm-logo.svg',
     classes: 'ml-12 h-14'
   },
   {
     name: 'AlKaram',
-    logo: 'https://alkaram.com/wp-content/themes/ak/images/logo-alkaram-black.png',
+    logo: './logo-alkaram-black.png',
     classes: 'h-10'
   },
   {
     name: 'GareebSons',
-    logo: 'http://garibsons.com/wp-content/uploads/2020/03/Garibsons-Logo-name.jpg',
+    logo: './Garibsons-Logo.jpg',
     classes: 'h-10 md:block hidden'
   },
   {
     name: 'AMNA Textile',
-    logo: 'https://amnatextile.com/images/logo.png',
+    logo: './Amna Txtile.png',
     classes: 'h-14'
   },
   {
     name: 'UnionFabrics',
-    logo: 'https://www.unionfabrics.com/images/demo/logo.png',
+    logo: './union.png',
     classes: 'h-14'
   },
   {
     name: 'ZamanTextile',
-    logo: 'https://www.zamantextile.com/wp-content/uploads/2022/11/logo-2.png',
+    logo: './zaman textile.png',
   },
   {
     name: 'Orient',
@@ -37,27 +37,27 @@ export const Clients = [
   },
   {
     name: 'Ibrahim Textile',
-    logo: 'https://www.ibrahimtex.com/Welcome%20to%20Ibrhaim%20Textile%20Textile,%20Pakistan_files/logo.jpg',
+    logo: './ibrahim.jpeg',
     classes: 'h-14'
   },
   {
     name: 'Soya Supreme',
-    logo: 'https://apag.com.pk/wp-content/themes/apag_new/assets/images/soya-suprem-logo.png',
+    logo: './soya-suprem-logo.png',
     classes: 'h-16'
   },
   {
     name: 'Igloo',
-    logo: 'https://igloofun.com/wp-content/uploads/2023/03/igloo_logo.png',
+    logo: './igloo_logo.png',
     classes: 'h-14'
   },
   {
     name: 'PSL - Pakistan Synthetic Limited',
-    logo: 'https://pslpet.com/wp-content/uploads/2022/01/PSL-Logo-New.png',
+    logo: './PSL-Logo-New.png',
     classes: 'h-14'
   },
   {
     name: 'AlRaheem',
-    logo: 'https://www.alrahimtextile.com/images/logo.jpg',
+    logo: './al raheem.jpg',
     classes: 'h-12'
   }
   
