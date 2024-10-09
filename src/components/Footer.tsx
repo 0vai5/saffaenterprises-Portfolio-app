@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
       <div className="footer-container bg-black text-white">
         <div className="z-10">
-          <img src="./saffaenterprises.png" alt="logo" className="h-28" />
+          <img src="./saffaenterprises-dark.png" alt="logo" className="h-28" />
         </div>
         <p>&copy; Saffa Enterprises. All rights reserved.</p>
       </div>
