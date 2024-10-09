@@ -1,11 +1,11 @@
 
-import { faCheckDouble, faClockRotateLeft, faEnvelope, faExpand, faGear, faHandshake, faLightbulb, faLock, faPaperPlane, faPhoneAlt, faStar, faTeletype, faTrophy } from "@fortawesome/free-solid-svg-icons";
+import { faCheckDouble, faClockRotateLeft, faHandShake,faEnvelope, faExpand, faGear, faHandshake, faLightbulb, faLock, faPaperPlane, faPhoneAlt, faStar, faTeletype, faTrophy } from "@fortawesome/free-solid-svg-icons";
 
 export const Clients = [
   {
     name: 'ADM',
     logo: './adm-logo.svg',
-    classes: 'ml-12 h-14'
+    classes: 'h-14'
   },
   {
     name: 'AlKaram',
@@ -15,7 +15,7 @@ export const Clients = [
   {
     name: 'GareebSons',
     logo: './Garibsons-Logo.jpg',
-    classes: 'h-10 md:block hidden'
+    classes: 'h-10'
   },
   {
     name: 'AMNA Textile',
@@ -253,31 +253,31 @@ export const specialities = [
   {
     icon: faTrophy,
     title: 'Team of Professionals',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+    desc: 'At SaffaEnterprises, our experienced team delivers innovative solutions across technology, marketing, and business development. With a strong commitment to excellence, we ensure top-quality results in every project, driven by a passion for success and professionalism.'
   },
   {
     icon: faStar,
     title: 'Advance Technology',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+    desc: 'SaffaEnterprises leverages cutting-edge technology to provide innovative solutions tailored to modern business needs. By staying at the forefront of tech advancements, we ensure our clients receive the most efficient and future-ready services.'
   },
   {
     icon: faExpand,
     title: 'Focus on Customer',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+    desc: "At SaffaEnterprises, we utilize the latest technologies to deliver solutions that are not only innovative but also centred around our customers' needs. Our commitment to staying ahead in tech advancements ensures that we provide efficient, reliable, and future-proof services tailored to help our clients achieve their goals."
   },
   {
     icon: faClockRotateLeft,
     title: 'Efficient Service',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+    desc: "SaffaEnterprises is dedicated to providing fast, reliable, and efficient services tailored to our customers' needs. We streamline processes and leverage advanced technology to ensure timely delivery and superior quality in every project."
   },
   {
     icon: faCheckDouble,
     title: 'Quality Products',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+    desc: 'At SaffaEnterprises, we are committed to delivering high-quality products that meet the highest standards. With a focus on durability, functionality, and customer satisfaction, we ensure that every product we offer is crafted to exceed expectations.'
   },
   {
-    icon: faLightbulb,
-    title: 'Advance Technology',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem quisquam ducimus corporis, eius pariatur saepe sed quaerat odit ullam.'
+    icon: faHandShake,
+    title: "Quality You Can Trust",
+    desc: 'At SaffaEnterprises, we pride ourselves on delivering solutions that our customers can rely on. Every product and service we offer undergoes rigorous testing to ensure it meets the highest standards of quality, durability, and performance. Our commitment to excellence guarantees that you receive only the best, backed by our promise of trust and reliability.'
   }
 ]
