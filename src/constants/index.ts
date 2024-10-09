@@ -204,6 +204,21 @@ export const products = [
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLDZpO-VYTQ3jdqsWKo39e3ORiJtjAGsUa6-7kRYiQZQ&s',
     alt: 'Proximity and Capacitive Sensor',
     desc: 'Available in Riko, Autonics, MD, Fotek'
+  },
+  {
+    image: './PneumaticCylinder.jpg',
+    alt: 'Pneumatic Fittings',
+    desc: 'All kinds of Pipes, fitting'
+  },
+  {
+    image: './pneumatic-cylinder-250x250.jpg',
+    alt: 'Pneumatic Cylinder',
+    desc: 'All kinds of sizes'
+  },
+  {
+    image: './push-in-fittings-250x250.jpg',
+    alt: 'Pneumatic Push-in-Fittings',
+    desc: 'All kinds sizes and fittings'
   }
 ];
 
@@ -263,7 +278,7 @@ export const specialities = [
   {
     icon: faExpand,
     title: 'Focus on Customer',
-    desc: "At SaffaEnterprises, we utilize the latest technologies to deliver solutions that are not only innovative but also centred around our customers' needs. Our commitment to staying ahead in tech advancements ensures that we provide efficient, reliable, and future-proof services tailored to help our clients achieve their goals."
+    desc: "We utilize the latest technologies to deliver solutions that are not only innovative but also centred around our customers' needs. Our commitment to staying ahead in tech advancements ensures that we provide efficient, reliable services tailored to help our clients achieve their goals."
   },
   {
     icon: faClockRotateLeft,
@@ -278,6 +293,6 @@ export const specialities = [
   {
     icon: faHandshake,
     title: "Quality You Can Trust",
-    desc: 'At SaffaEnterprises, we pride ourselves on delivering solutions that our customers can rely on. Every product and service we offer undergoes rigorous testing to ensure it meets the highest standards of quality, durability, and performance. Our commitment to excellence guarantees that you receive only the best, backed by our promise of trust and reliability.'
+    desc: 'We pride ourselves on delivering solutions that our customers can rely on. Every product and service we offer undergoes testing to ensure it meets the highest standards of quality. Our excellence guarantees that you receive only the best.'
   }
 ]

@@ -26,7 +26,7 @@ interface CustomCarouselProps {
 
 const CustomCarousel: React.FC<CustomCarouselProps> = ({ children }) => {
   return (
-    <Carousel responsive={responsive} swipeable={true} autoPlay={true} autoPlaySpeed={1200} ssr={true}  keyBoardControl={true} removeArrowOnDeviceType={["tablet", "mobile"]}>
+    <Carousel responsive={responsive} swipeable={true} autoPlay={true} autoPlaySpeed={2000} ssr={true}  keyBoardControl={true} removeArrowOnDeviceType={["tablet", "mobile"]}>
       {children}
     </Carousel>
   );
