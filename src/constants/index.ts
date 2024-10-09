@@ -1,5 +1,5 @@
 
-import { faCheckDouble, faClockRotateLeft, faHandShake,faEnvelope, faExpand, faGear, faHandshake, faLightbulb, faLock, faPaperPlane, faPhoneAlt, faStar, faTeletype, faTrophy } from "@fortawesome/free-solid-svg-icons";
+import { faCheckDouble, faClockRotateLeft,faEnvelope, faExpand, faGear, faHandshake, faLock, faPaperPlane, faPhoneAlt, faStar, faTeletype, faTrophy } from "@fortawesome/free-solid-svg-icons";
 
 export const Clients = [
   {
@@ -276,7 +276,7 @@ export const specialities = [
     desc: 'At SaffaEnterprises, we are committed to delivering high-quality products that meet the highest standards. With a focus on durability, functionality, and customer satisfaction, we ensure that every product we offer is crafted to exceed expectations.'
   },
   {
-    icon: faHandShake,
+    icon: faHandshake,
     title: "Quality You Can Trust",
     desc: 'At SaffaEnterprises, we pride ourselves on delivering solutions that our customers can rely on. Every product and service we offer undergoes rigorous testing to ensure it meets the highest standards of quality, durability, and performance. Our commitment to excellence guarantees that you receive only the best, backed by our promise of trust and reliability.'
   }
