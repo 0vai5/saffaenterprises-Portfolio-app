@@ -10,7 +10,8 @@ export const Clients = [
   {
     name: 'Soorty',
     logo: './soorty.png',
-    classes: h-14
+    classes: 'h-14'
+  },   
   {
     name: 'AlKaram',
     logo: './logo-alkaram-black.png',
